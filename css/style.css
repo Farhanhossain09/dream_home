@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*--header end--*/
+header{
+	background-color: white;
+	padding: 10px 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 2px solid black;*/
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width:70%; 
+	float: right;
+	margin-top:10px; 
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: san-serif;
+    font-size: 16px;
+    font-weight: 550;
+    color: #646B7B;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 25px;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+	color: blue;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*--header end--*/
+
+/*--banner start--*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 30%;
+	background-color: rgba(10, 0, 11, 0.4);
+	padding: 28px 9px 20px;
+	margin: 128px 0px 320px;
+}
+
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	color: #ffffffd9;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 40px;
+}
+.b_content p{
+	font-family: sans-serif;
+	color: #ffffffd9;
+	line-height: 24px;
+	margin: 0;
+}
+
+.b_content button{
+	font-family: san-serif;
+	color: aqua;
+	width: 140px;
+	background-color:  rgb(10,10,10,0.8);
+	padding: 10px;
+	margin: 20px 0 25px;
+	border: 0;
+	border-radius: 3px; 
+	cursor: pointer;
+	transform: .3s;
+}
+.b_content button:hover{
+	background-color: white;
+}
+/*--banner end--*/
+/*service start-*/
+.service{
+	padding: 65px 0px;
+}
+.wrapper2{
+	overflow: hidden;
+}
+.single{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin: 20px;
+}
+
+
+.single h2{
+	font-family: san-serif;
+	color: #7777;
+	text-transform: capitalize;
+}
+.single img{
+	width: 100%;
+}
+.single p{
+	font-family: san-serif;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 23px 0 13px;
+	line-height: 30px;
+	font-size: 14px;color: black;
+
+}
+.single button{
+	font-family: san-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #335070;
+    padding: 5px 20px;
+    margin: 20px 100px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+/*service end-*/
+
+.footer-section{
+
+}
+
+.about{
+	width: 40%;
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+.social-icon{
+	margin: 0 auto;
+}
